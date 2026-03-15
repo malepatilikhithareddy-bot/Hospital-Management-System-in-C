@@ -87,7 +87,7 @@ If you want to compile the program yourself:
 Compile the program:
 
 ```
-gcc "Hospital management c file" -o hospital
+gcc "hospital_management" -o hospital
 ```
 
 Run the program:
@@ -125,8 +125,7 @@ Possible improvements for this project:
 
 ## Author
 
-Lucky
-
+M.Likhitha Reddy
 ---
 
 ## License
