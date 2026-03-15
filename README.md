@@ -1,106 +1,98 @@
 # Hospital Management System (C)
 
 A console-based **Hospital Management System** developed using the **C programming language**.  
-This project manages hospital operations such as patient records, medical history, employee data, payments, and admissions through a menu-driven interface.
+This project manages hospital operations such as patient records, employee data, payments, and patient admissions through a menu-driven interface.
+
+---
+
+## Repository Structure
+
+```
+Hospital-Management-System
+│
+├── Hospital management c file   # Source code of the program
+├── c_project.exe                # Executable file to run the program directly
+└── README.md                    # Project documentation
+```
 
 ---
 
 ## Project Description
 
-The Hospital Management System is designed to manage hospital information efficiently.  
-It allows users to:
+This system simulates basic hospital management functionality.  
+It allows users to manage hospital data efficiently using a simple command-line interface.
 
-- Register patients
-- Store medical records
-- Track medicine payments
-- Manage employee information
-- Admit patients to hospital rooms
-- View medicines available in the medical store
+The program includes features such as:
 
-The program uses **structures, pointers, arrays, and dynamic memory allocation** in C.
+- Patient registration
+- Medical record management
+- Medicine payment tracking
+- Employee management
+- Patient admission system
+- Medical store display
+
+The implementation uses **C structures, arrays, pointers, and dynamic memory allocation**.
 
 ---
 
 ## Features
 
 ### Patient Management
-- Add new patient records
-- Validate patient details (name, blood group, phone number)
-- Store patient information including:
-  - Registration number
-  - Name
-  - Age
-  - Gender
-  - Blood group
-  - Phone number
-  - Date of birth
+- Add new patients
+- Store patient information including registration number, name, age, gender, blood group, phone number, and date of birth
+- Display patient records
 
 ### Medical Records
 - Insert medical records for patients
-- Store disease information
-- Suggest doctors based on disease type
-- Maintain medical descriptions
+- Store disease description
+- Suggest doctor based on disease type
 
 ### Payment Management
-- Add medicine payment records
-- Record payment amount and date
-- Display payment history of patients
+- Record payments for medicines
+- Store payment date and amount
+- Display payment history
 
 ### Patient Admission
 - Admit patients based on disease
-- Automatically assign room numbers
+- Automatically assign hospital rooms
 
 ### Employee Management
-- Add hospital employees
-- Store employee details including:
-  - Employee ID
-  - Name
-  - Role
-  - Salary
-  - Date of joining
-  - Experience
-  - Employment type
+- Add employee details
+- Store employee information such as ID, role, salary, and experience
 - Delete employee records
 
 ### Medical Store
-Displays a list of available medicines and their prices.
+Displays available medicines and their prices.
 
 ---
 
-## Technologies Used
+## How to Run the Program
 
-- C Programming
-- Structures
-- Pointers
-- Dynamic Memory Allocation
-- Arrays
-- Input Validation
-- Menu Driven Interface
+### Method 1: Run Executable File
+
+You can directly run the program using the provided executable file:
+
+```
+c_project.exe
+```
+
+This will open the console application and display the hospital management menu.
 
 ---
 
-## Project Structure
+### Method 2: Compile the Source Code
+
+If you want to compile the program yourself:
+
+Compile the program:
 
 ```
-Hospital-Management-System-C
-│
-├── hospital_management.c
-└── README.md
+gcc "Hospital management c file" -o hospital
 ```
 
----
+Run the program:
 
-## How to Compile and Run
-
-### Compile the program
-
-```bash
-gcc hospital_management.c -o hospital
 ```
-
-### Run the program
-
-```bash
 ./hospital
 ```
 
@@ -121,21 +113,22 @@ HOSPITAL MANAGEMENT SYSTEM
 
 ## Future Improvements
 
-- Add file handling for permanent data storage
-- Add search functionality for patients
-- Add billing system
-- Add login authentication
-- Create graphical user interface
-- Connect to database (MySQL/SQLite)
+Possible improvements for this project:
+
+- File handling for permanent data storage
+- Database integration
+- Search functionality for patients and employees
+- Billing system
+- Graphical User Interface (GUI)
 
 ---
 
 ## Author
 
-Likhitha Reddy.M
+Lucky
 
 ---
 
 ## License
 
-This project is developed for educational and learning purposes.
+This project is created for educational and learning purposes.
